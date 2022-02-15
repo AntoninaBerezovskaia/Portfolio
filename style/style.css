@@ -1,0 +1,29 @@
+/* rule for all elements */
+*{
+    background-color: black;
+    font-family: 'Arvo', serif;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+/* rule for navigation bar */
+.navbar-nav
+{
+    color: white;
+    float:left;
+    font-size: 1.2rem;
+}
+
+
+footer{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  font-size: small;
+}
+
+a:hover{
+    font-size: larger;
+}
