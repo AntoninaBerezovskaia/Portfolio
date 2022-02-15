@@ -4,20 +4,20 @@
     font-family: 'Arvo', serif;
     font-family: 'Inconsolata', monospace;
     color: white;
+
 }
 
-/* rule for navigation bar */w
-.navbar-nav a
+/* rule for navigation bar */
+
+
+.navbar-nav 
 {
-    color: rgb(112,195,223);
+    
     float:left;
     font-size: 1.2rem;
 }
-.navbar-toggler{
-    color: rgb(112,195,223);
-}
 
-.nav-item a:hover{
+.navbar-nav a:hover{
     font-size: 150%;
     color: rgb(99, 157, 233);
 }
@@ -56,6 +56,8 @@ main .mySticker:hover, main p:hover{
 }
 
 .description{
-    float: right;
+    padding: 3% 3% 0 3%;
     width: fit-content;
+    text-align: left;
+
 }
